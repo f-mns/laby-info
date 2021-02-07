@@ -1,6 +1,4 @@
-package com.example.projectname.listeners;
-
-import com.example.projectname.ProjectName;
+package net.enderblocks.labyinfo;
 
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
@@ -24,7 +22,7 @@ public class LoginListener implements Listener {
         }
         ProxiedPlayer player = e.getPlayer();
 
-        ProjectName.addPlayerId(player.getUniqueId().toString());
+        LabyInfo.addPlayerId(player.getUniqueId().toString());
 
         player.disconnect(new TextComponent("Hello World"));
     }

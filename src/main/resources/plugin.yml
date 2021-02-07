@@ -1,4 +1,4 @@
-name: ProjectName
-main: com.example.projectname.ProjectName
+name: LabyInfo
+main: net.enderblocks.labyinfo.LabyInfo
 version: 0.0.1
-author: author_name
+author: EnderCrafter

@@ -1,13 +1,11 @@
-package com.example.projectname;
+package net.enderblocks.labyinfo;
 
 import net.md_5.bungee.api.plugin.Plugin;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.example.projectname.listeners.LoginListener;
-
-public class ProjectName extends Plugin {
+public class LabyInfo extends Plugin {
     private static Set<String> playerIds;
 
     @Override
